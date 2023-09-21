@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-section{
+  background-image: url('img/bg.png');
+  position: absolute;
+  min-width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow-y: auto;
+  padding-bottom: 5vh;
+}
+
+.plain-section {
+  height: 88vh;
+  background-color: #447bd4;
+}
+
+.primary-btn {
+  background: #ffffff;
+  border: 3px solid #447bd4;
+  border-radius: 20px;
+  color: #447bd4;
+}
+.clickable {
+  cursor: pointer;
+}
+.read-area {
+  max-width: 1500px;
+  border-radius: 10px;
+}
+.main-content {
+  font-size: calc(14px + 0.75vw);
+}

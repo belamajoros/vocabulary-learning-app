@@ -1,0 +1,39 @@
+.custom-navbar {
+    background-color: #2a364c;
+  }
+  .main-area {
+    background-image: url('../img/Login_page.svg');
+    background-size: 100%;
+    height: 90vh;
+    background-repeat: repeat;
+  }
+  .main-btn {
+    background: #ffffff;
+    border: 1px solid #447bd4;
+    border-radius: 20px;
+  }
+  .secondary-content {
+    line-height: 1.8;
+  }
+  .main-color {
+    color: #447bd4;
+  }
+  @media (max-width: 768px) {
+    .main-heading {
+      font-size: 1.75rem;
+    }
+    .secondary-content {
+      text-align: center !important;
+    }
+    .main-btn {
+      text-align: center !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .main-heading {
+      font-size: 81px;
+    }
+    .secondary-content {
+      font-size: 36px !important;
+    }
+  }

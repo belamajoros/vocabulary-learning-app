@@ -1,0 +1,47 @@
+.primary-color {
+  color: #447bd4;
+}
+.custom-select button {
+  border: none;
+}
+.custom-select button::after {
+  border-top: 5px solid #fff !important;
+}
+.custom-select {
+  width: 70px;
+}
+.navbar-style {
+  background-color: #2a364c;
+}
+.select-style {
+  color: #447bd4;
+}
+.select-style::after {
+  color: #447bd4;
+}
+.select-wrapper {
+  background-color: #fff;
+  border-radius: 20px;
+}
+/* buttons */
+.active-btn {
+  background-color: #ffffff;
+  border-radius: 0px 0px 20px 20px;
+}
+.inactive-btn {
+  background-color: #cdcdcd;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.content-wrapper {
+  background: #ffffff;
+  border: 1px solid #447bd4;
+  border-radius: 20px;
+  max-width: 350px;
+}
+.white-circle {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: #ffffff;
+}

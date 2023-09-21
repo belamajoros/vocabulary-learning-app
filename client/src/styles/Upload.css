@@ -1,0 +1,89 @@
+.input-style {
+  background-color: #ffffff !important;
+  border-radius: 20px;
+}
+
+.file-style::-webkit-file-upload-button {
+  border-radius: 20px;
+  opacity: 1 !important;
+  background-color: #ffffff !important;
+  color: #447bd4 !important;
+  padding: 0.5rem;
+  border-color: transparent !important;
+}
+
+.modal-90w { max-width: 55% !important; }
+
+.trim-text{
+  overflow: auto;
+}
+
+.h--88 {
+  height: 88%;
+}
+
+input[type='file'] {
+  max-width: 110px;
+  overflow:hidden;
+}
+
+@media (max-width: 1350px ){
+  .modal-90w {
+    max-width: 90% !important;
+  }
+}
+
+@media (max-width: 750px ){
+  .modal-90w {
+    max-width: 100% !important;
+  }
+  .resp {
+    padding: 2px !important;
+  }
+  .h--88{
+    height: 90%
+  }
+}
+
+
+.minh65{
+  min-height: 65vh;
+}
+
+.yScroll {
+  overflow-y: auto;
+}
+
+.of-scroll{
+  overflow-y: auto;
+  height: 65vh;
+}
+
+.wordDiv{
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.btnClick {
+  color: #007bff;
+  background:none;
+  border:none;
+ }
+
+ ::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

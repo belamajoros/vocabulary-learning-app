@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .primary-color {
+    color: #447bd4;
+  }
+
+  .fs-16 {
+    font-size: 16px;
+  }
+
+
+  .login{
+    background-image: url('../img/Login_page.svg');
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .main-container {
+    max-width: 479px;
+    box-shadow: 25px 25px 0px #2a364c;
+  }
+
+  ::placeholder {
+    color: #807171;
+  }
+
+  .input-style {
+    width: 300px;
+    height: 50px;
+    background: #ffffff;
+    border: 2px solid #447bd4;
+    border-radius: 5px;
+  }
+
+  input#email {
+    background-image: url('../img/account_circle_24px.svg');
+    background-size: 8%;
+    background-position: 250px 12px;
+    background-repeat: no-repeat;
+  }
+  input#pass {
+    background-image: url('../img/vpn_key_24px.svg');
+    background-size: 8%;
+    background-position: 250px 15px;
+    background-repeat: no-repeat;
+  }
+
+  .primary-btn {
+    width: 300px;
+    height: 42px;
+    background-color: #447bd4 !important;
+    border: 1px solid #447bd4;
+    border-radius: 20px !important;
+    text-align: center;
+  }
